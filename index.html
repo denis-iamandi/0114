@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portofoliu educațional – Iamandi Denis</title>
+
+  <!-- Favicon personalizat -->
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+
+  <!-- Stiluri și FontAwesome -->
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://kit.fontawesome.com/c11ba349a7.js" crossorigin="anonymous"></script>
+</head>
+<body id="top">
+  <!-- Fundal animat pe margini -->
+  <div class="margini-gif"></div>
+
+  <!-- Banner decorativ sus -->
+  <div class="banner-sus">
+    <img src="images/banner-sus.jpg" alt="Banner educațional" />
+  </div>
+
+  <!-- Titlu cu avatar și iconiță -->
+  <div class="logo-portofoliu">
+    <a href="#despre">
+      <img src="images/avatar.jpg" alt="Avatar Denis" class="avatar-icon" />
+      <span><i class="fa-solid fa-user-graduate"></i> Portofoliu educațional <strong>Iamandi Denis</strong></span>
+    </a>
+  </div>
+
+  <!-- Meniu fix sus -->
+  <nav class="meniu-sus">
+    <ul>
+      <li><a href="#despre"><i class="fa-solid fa-user"></i> Despre</a></li>
+      <li><a href="#formare"><i class="fa-solid fa-graduation-cap"></i> Formare</a></li>
+      <li><a href="#activitate"><i class="fa-solid fa-chalkboard-user"></i> Activitate</a></li>
+      <li><a href="#materiale"><i class="fa-solid fa-book"></i> Materiale</a></li>
+      <li><a href="#galerie"><i class="fa-solid fa-image"></i> Galerie</a></li>
+      <li><a href="#concursuri"><i class="fa-solid fa-award"></i> Concursuri</a></li>
+      <li><a href="#contact"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="despre">
+      <h2>Despre mine</h2>
+      <img src="images/avatar.jpg" alt="Fotografie Iamandi Denis" />
+      <p>
+        Sunt profesor de fizică, chimie și informatică, acreditat la Liceul Tehn. Gimnazial Rădești Vechi.  
+        Pasionat de descoperiri digitale, design educațional și metode de predare în linie, în plus la cele clasice,  
+        dar și de dezvoltarea de softuri, site-uri, a participa la evenimente și să explorez noi tehnologii educaționale.  
+        Cu o puternică înclinație spre știință și spre activitatea educațională de după școală.
+      </p>
+    </section>
+
+    <section id="formare">
+      <h2>Formare profesională</h2>
+      <ul>
+        <li>Google Classroom & Zoom</li>
+        <li>Crearea conținuturilor educaționale digitale</li>
+        <li>Jeju, Coreea – educație online și MicroBit</li>
+      </ul>
+    </section>
+
+    <section id="activitate">
+      <h2>Activitate didactică</h2>
+      <ul>
+        <li>Ion Creangă Ungheni</li>
+        <li>Gaudeamus Petrești</li>
+        <li>Gimnaziul Rădenii Vechi</li>
+      </ul>
+    </section>
+
+    <section id="materiale">
+      <h2>Materiale educaționale</h2>
+      <p>Fișiere Word, PDF și linkuri către resurse didactice vor fi integrate aici.</p>
+    </section>
+
+    <section id="galerie">
+      <h2>Galerie diplome și elevi</h2>
+      <div class="grid-galerie">
+        <!-- 20 imagini -->
+        <img src="images/foto1.jpg" alt="Certificat 1" />
+        <img src="images/foto2.jpg" alt="Certificat 2" />
+        <img src="images/foto3.jpg" alt="Certificat 3" />
+        <img src="images/foto4.jpg" alt="Certificat 4" />
+        <img src="images/foto5.jpg" alt="Certificat 5" />
+        <img src="images/foto6.jpg" alt="Certificat 6" />
+        <img src="images/foto7.jpg" alt="Certificat 7" />
+        <img src="images/foto8.jpg" alt="Certificat 8" />
+        <img src="images/foto9.jpg" alt="Certificat 9" />
+        <img src="images/foto10.jpg" alt="Certificat 10" />
+        <img src="images/foto11.jpg" alt="Certificat 11" />
+        <img src="images/foto12.jpg" alt="Certificat 12" />
+        <img src="images/foto13.jpg" alt="Certificat 13" />
+        <img src="images/foto14.jpg" alt="Certificat 14" />
+        <img src="images/foto15.jpg" alt="Elev 1" />
+        <img src="images/foto16.jpg" alt="Elev 2" />
+        <img src="images/foto17.jpg" alt="Elev 3" />
+        <img src="images/foto18.jpg" alt="Elev 4" />
+        <img src="images/foto19.jpg" alt="Elev 5" />
+        <img src="images/foto20.jpg" alt="Elev 6" />
+      </div>
+    </section>
+
+    <section id="concursuri">
+      <h2>Concursuri și punctaje</h2>
+      <div class="grid-galerie">
+        <img src="images/punctaj_elita1.jpg" alt="Punctaj ELITA I" />
+        <img src="images/punctaj_elita2.jpg" alt="Punctaj ELITA II" />
+        <img src="images/punctaj_minerva1.jpg" alt="Punctaj MINERVA I" />
+        <img src="images/punctaj_minerva2.jpg" alt="Punctaj MINERVA II" />
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form id="contactForm">
+        <label for="nume">Nume:</label>
+        <input type="text" id="nume" required />
+        <label for="email">Email:</label>
+        <input type="email" id="email" required />
+        <label for="mesaj">Mesaj:</label>
+        <textarea id="mesaj" rows="5" required></textarea>
+        <button type="submit">Trimite</button>
+        <p id="formStatus"></p>
+      </form>
+      <p>Email: <a href="mailto:iamandi.denis05@gmail.com">iamandi.denis05@gmail.com</a></p>
+      <p>Telefon: <a href="tel:+37368758295">068758295</a></p>
+    </section>
+
+    <footer>
+      <p>&copy; <span id="year"></span> Iamandi Denis</p>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
